@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Birthday, Gamer Beach Buddy!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Pacifico', cursive;
+      background: linear-gradient(to top, #0f0c29, #302b63, #24243e);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: url('https://www.rockstargames.com/VI/_next/image?url=%2FVI%2F_next%2Fstatic%2Fmedia%2FJason_Duval_04.374574ad.jpg&w=1920&q=75') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-shadow: 0 0 6px #ff4fd8, 0 0 10px #ff4fd8, 0 0 14px #ff4fd8;
+      margin: 0;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: #ff4fd8;
+      text-shadow: 0 0 8px #ff4fd8, 0 0 12px #ff4fd8, 0 0 18px #ff4fd8;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5em;
+      margin-top: 0.5rem;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .beach-vibes, .level-up {
+      background: #4b367c; /* settled purple */
+      color: #ddd;
+    }
+
+    .beach-vibes h2, .level-up h2 {
+      color: #d1c4e9;
+      margin-top: 0;
+    }
+
+    .gaming {
+      background: #111;
+      color: #00ffea;
+    }
+
+    .gaming h2 {
+      margin-top: 0;
+    }
+
+    .controller {
+      font-size: 3em;
+      margin: 0.5rem 0;
+    }
+
+    video {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+      margin-top: 1rem;
+    }
+
+    .custom-photo {
+      display: block;
+      margin: 2rem auto;
+      border-radius: 15px;
+      max-width: 80%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    }
+
+    .footer {
+      background: #000;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9em;
+      color: #ccc;
+      letter-spacing: 0.05em;
+    }
+
+    /* Audio player styles */
+    #audio-player {
+      position: fixed;
+      bottom: 15px;
+      left: 15px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 30px;
+      padding: 8px 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 260px;
+      box-shadow: 0 0 10px #ff4fd8aa;
+      font-family: 'Pacifico', cursive;
+      z-index: 9999;
+    }
+
+    #audio-player button {
+      background: none;
+      border: none;
+      color: #ff4fd8;
+      font-size: 1.5em;
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+    #audio-player button:hover {
+      color: #ff79d4;
+    }
+
+    #audio-player audio {
+      width: 100%;
+      outline: none;
+      background: transparent;
+      -webkit-appearance: none;
+      appearance: none;
+      cursor: pointer;
+      filter: drop-shadow(0 0 2px #ff4fd8);
+    }
+
+    /* Customize audio seek bar */
+    #audio-player audio::-webkit-slider-runnable-track {
+      height: 6px;
+      background: #ff4fd8;
+      border-radius: 3px;
+    }
+
+    #audio-player audio::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50%;
+      cursor: pointer;
+      margin-top: -5px;
+      box-shadow: 0 0 6px #ff4fd8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Happy Birthday, Sharon Noob 🤞</h1>
+    <p>Whishing you a best and remarkable birthday 🎮🏖️</p>
+  </header>
+
+  <section class="section beach-vibes">
+    <h2>Gamer Vibes</h2>
+    <p>Just like the ocean breeze, Your gameplay will always be Noob.</p>
+    <video autoplay muted loop playsinline>
+      <source src="https://www.rockstargames.com/VI/_next/static/media/Lucia_Caminos_Video_Clip.d59efda1d4d3246a46ac0933a9708a02.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="section gaming">
+    <h2>Glory Days</h2>
+    <p>You are the first frnd of mine in this school. and I miss those days we sit in the same bench and talked abt games</p>
+    <div class="controller">🎮✨</div>
+    <video autoplay muted loop playsinline>
+      <source src="https://www.rockstargames.com/VI/_next/static/media/Jason_Duval_Video_Clip.77b923d5c572070624409b5261094ac2.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="section level-up">
+    <h2>Level Up!</h2>
+    <p>We will meet soon and will be friends forever don't forget me.</p>
+  </section>
+
+  <img src="assets/custom-photo.jpg" alt="Custom Birthday Photo" class="custom-photo" />
+
+  <div class="footer">
+    Made with ❤️ for your special day. I know this is cool but don't thanks me 🌴👾
+  </div>
+
+  <!-- Compact audio player -->
+  <div id="audio-player">
+    <button id="play-pause" aria-label="Play/Pause">&#9658;</button>
+    <audio id="bg-music" src="assets/birthday-song.mp3" loop></audio>
+  </div>
+
+  <script>
+    const audio = document.getElementById('bg-music');
+    const playPauseBtn = document.getElementById('play-pause');
+
+    // Try to autoplay unmuted (will often fail in browsers, but fallback below)
+    audio.volume = 0.5;
+    audio.muted = false;
+    audio.play().catch(() => {
+      // On fail, mute and play (required by most browsers for autoplay)
+      audio.muted = true;
+      audio.play();
+    });
+
+    // Update button icon based on audio state
+    audio.onplay = () => playPauseBtn.innerHTML = "&#10074;&#10074;"; // pause icon
+    audio.onpause = () => playPauseBtn.innerHTML = "&#9658;"; // play icon
+
+    // Play/pause toggle on button click
+    playPauseBtn.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.muted = false; // unmute when manually played
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+  </script>
+
+</body>
+</html>
